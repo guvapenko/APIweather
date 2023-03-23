@@ -1,0 +1,60 @@
+.weather {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #E8F7FF;
+    border: 1px solid #0099CC;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.city-box,
+.temperature-box {
+    background-color: #0099CC;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.city-name,
+.temperature-value {
+    font-size: 14px;
+    margin: 0;
+}
+
+.city-box {
+    margin-right: 10px;
+}
+
+.temperature-box {
+    margin-left: 10px;
+}
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #0088be;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 150px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: none;
+    color: #0077be;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
